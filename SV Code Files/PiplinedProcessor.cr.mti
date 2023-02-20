@@ -1,0 +1,141 @@
+{D:/Comp Arch/Pipelined Processor/SV_Code/RegFile.sv} {1 {vlog -work work -sv -stats=none {D:\Comp Arch\Pipelined Processor\SV_Code\RegFile.sv}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module RegFile
+
+Top level modules:
+	RegFile
+
+} {} {}} {D:/Comp Arch/Pipelined Processor/SV_Code/eqcmp.sv} {1 {vlog -work work -sv -stats=none {D:\Comp Arch\Pipelined Processor\SV_Code\eqcmp.sv}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module eqcmp
+
+Top level modules:
+	eqcmp
+
+} {} {}} {D:/Comp Arch/Pipelined Processor/SV_Code/flopenr.sv} {1 {vlog -work work -sv -stats=none {D:\Comp Arch\Pipelined Processor\SV_Code\flopenr.sv}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module flopenr
+
+Top level modules:
+	flopenr
+
+} {} {}} {D:/Comp Arch/Pipelined Processor/SV_Code/testbench.sv} {1 {vlog -work work -sv -stats=none {D:\Comp Arch\Pipelined Processor\SV_Code\testbench.sv}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module testbench
+
+Top level modules:
+	testbench
+
+} {} {}} {D:/Comp Arch/Pipelined Processor/SV_Code/imem.sv} {1 {vlog -work work -sv -stats=none {D:\Comp Arch\Pipelined Processor\SV_Code\imem.sv}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module imem
+
+Top level modules:
+	imem
+
+} {} {}} {D:/Comp Arch/Pipelined Processor/SV_Code/Adder.sv} {1 {vlog -work work -sv -stats=none {D:\Comp Arch\Pipelined Processor\SV_Code\Adder.sv}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module Adder
+
+Top level modules:
+	Adder
+
+} {} {}} {D:/Comp Arch/Pipelined Processor/SV_Code/Hazard.sv} {1 {vlog -work work -sv -stats=none {D:\Comp Arch\Pipelined Processor\SV_Code\Hazard.sv}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module Hazard
+
+Top level modules:
+	Hazard
+
+} {} {}} {D:/Comp Arch/Pipelined Processor/SV_Code/flopr.sv} {1 {vlog -work work -sv -stats=none {D:\Comp Arch\Pipelined Processor\SV_Code\flopr.sv}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module flopr
+
+Top level modules:
+	flopr
+
+} {} {}} {D:/Comp Arch/Pipelined Processor/SV_Code/MUX3.sv} {1 {vlog -work work -sv -stats=none {D:\Comp Arch\Pipelined Processor\SV_Code\MUX3.sv}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module MUX3
+
+Top level modules:
+	MUX3
+
+} {} {}} {D:/Comp Arch/Pipelined Processor/SV_Code/floprc.sv} {1 {vlog -work work -sv -stats=none {D:\Comp Arch\Pipelined Processor\SV_Code\floprc.sv}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module floprc
+
+Top level modules:
+	floprc
+
+} {} {}} {D:/Comp Arch/Pipelined Processor/SV_Code/DataPath.sv} {1 {vlog -work work -sv -stats=none {D:\Comp Arch\Pipelined Processor\SV_Code\DataPath.sv}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module DataPath
+
+Top level modules:
+	DataPath
+
+} {} {}} {D:/Comp Arch/Pipelined Processor/SV_Code/ARM.sv} {1 {vlog -work work -sv -stats=none {D:\Comp Arch\Pipelined Processor\SV_Code\ARM.sv}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module ARM
+
+Top level modules:
+	ARM
+
+} {} {}} {D:/Comp Arch/Pipelined Processor/SV_Code/Extend.sv} {1 {vlog -work work -sv -stats=none {D:\Comp Arch\Pipelined Processor\SV_Code\Extend.sv}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module Extend
+
+Top level modules:
+	Extend
+
+} {} {}} {D:/Comp Arch/Pipelined Processor/SV_Code/flopenrc.sv} {1 {vlog -work work -sv -stats=none {D:\Comp Arch\Pipelined Processor\SV_Code\flopenrc.sv}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module flopenrc
+
+Top level modules:
+	flopenrc
+
+} {} {}} {D:/Comp Arch/Pipelined Processor/SV_Code/CondCheck.sv} {1 {vlog -work work -sv -stats=none {D:\Comp Arch\Pipelined Processor\SV_Code\CondCheck.sv}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module CondCheck
+
+Top level modules:
+	CondCheck
+
+} {} {}} {D:/Comp Arch/Pipelined Processor/SV_Code/ALU.sv} {1 {vlog -work work -sv -stats=none {D:\Comp Arch\Pipelined Processor\SV_Code\ALU.sv}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module ALU
+
+Top level modules:
+	ALU
+
+} {} {}} {D:/Comp Arch/Pipelined Processor/SV_Code/dmem.sv} {1 {vlog -work work -sv -stats=none {D:\Comp Arch\Pipelined Processor\SV_Code\dmem.sv}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module dmem
+
+Top level modules:
+	dmem
+
+} {} {}} {D:/Comp Arch/Pipelined Processor/SV_Code/TOP.sv} {1 {vlog -work work -sv -stats=none {D:\Comp Arch\Pipelined Processor\SV_Code\TOP.sv}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module TOP
+
+Top level modules:
+	TOP
+
+} {} {}} {D:/Comp Arch/Pipelined Processor/SV_Code/Controller.sv} {1 {vlog -work work -sv -stats=none {D:\Comp Arch\Pipelined Processor\SV_Code\Controller.sv}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module Controller
+
+Top level modules:
+	Controller
+
+} {} {}} {D:/Comp Arch/Pipelined Processor/SV_Code/MUX2.sv} {1 {vlog -work work -sv -stats=none {D:\Comp Arch\Pipelined Processor\SV_Code\MUX2.sv}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module MUX2
+
+Top level modules:
+	MUX2
+
+} {} {}}

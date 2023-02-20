@@ -1,0 +1,623 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dE:/Assignment4
+vadder
+Z0 DXx6 sv_std 3 std 0 22 VYECXdT12H8WgbUP_5Y6:3
+!s110 1643800950
+!i10b 1
+!s100 zX=Q4cDENUn@2X<Q8Z=^F1
+Z1 !s11b Dg1SIo80bB@j0V0VzS_@n1
+IDbaSUCmA[`i?0EkaOO04M0
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+S1
+Z3 dD:/Comp Arch/Pipelined Processor/SV_Code
+w1643800947
+Z4 8D:\Comp Arch\Pipelined Processor\SV_Code\ALU.sv
+Z5 FD:\Comp Arch\Pipelined Processor\SV_Code\ALU.sv
+!i122 0
+L0 27 6
+Z6 OV;L;2020.1;71
+r1
+!s85 0
+31
+!s108 1643800950.000000
+Z7 !s107 D:\Comp Arch\Pipelined Processor\SV_Code\ALU.sv|
+Z8 !s90 -reportprogress|300|-work|work|-sv|-stats=none|D:\Comp Arch\Pipelined Processor\SV_Code\ALU.sv|
+!i113 1
+Z9 o-work work -sv
+Z10 tCvgOpt 0
+vAdder
+R0
+Z11 !s110 1643833331
+!i10b 1
+!s100 c7U3T@8KYc8HQ4<;RHn3L1
+R1
+IPB?l7AR>W:4B<F74?GX_O2
+R2
+S1
+R3
+w1643825670
+8D:\Comp Arch\Pipelined Processor\SV_Code\Adder.sv
+FD:\Comp Arch\Pipelined Processor\SV_Code\Adder.sv
+!i122 58
+Z12 L0 1 7
+R6
+r1
+!s85 0
+31
+Z13 !s108 1643833331.000000
+!s107 D:\Comp Arch\Pipelined Processor\SV_Code\Adder.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|D:\Comp Arch\Pipelined Processor\SV_Code\Adder.sv|
+!i113 1
+R9
+R10
+n@adder
+vALU
+R0
+R11
+!i10b 1
+!s100 e4j8N4fU:T@mOaVdA`Bn?1
+R1
+IiaHCgQP@R0iCQ:m[OFHD00
+R2
+S1
+R3
+w1643806626
+R4
+R5
+!i122 53
+L0 1 34
+R6
+r1
+!s85 0
+31
+R13
+R7
+R8
+!i113 1
+R9
+R10
+n@a@l@u
+valu
+R0
+!s110 1643805815
+!i10b 1
+!s100 WMBNMH]aW7Mn?FzH9I^?H0
+R1
+IPc=]kRl5l@i<fUQ9>zh6N0
+R2
+S1
+R3
+w1643805810
+Z14 8D:\Comp Arch\Pipelined Processor\SV_Code\DataPath.sv
+Z15 FD:\Comp Arch\Pipelined Processor\SV_Code\DataPath.sv
+!i122 6
+L0 1 220
+R6
+r1
+!s85 0
+31
+!s108 1643805814.000000
+Z16 !s107 D:\Comp Arch\Pipelined Processor\SV_Code\DataPath.sv|
+Z17 !s90 -reportprogress|300|-work|work|-sv|-stats=none|D:\Comp Arch\Pipelined Processor\SV_Code\DataPath.sv|
+!i113 1
+R9
+R10
+vARM
+R0
+Z18 !s110 1643833332
+!i10b 1
+!s100 S6J1RJ3m4h8dC4]3?DW]e1
+R1
+IZH:j:Ah2bXfARa2Wi=cz?3
+R2
+S1
+R3
+w1643833170
+8D:\Comp Arch\Pipelined Processor\SV_Code\ARM.sv
+FD:\Comp Arch\Pipelined Processor\SV_Code\ARM.sv
+!i122 67
+L0 1 24
+R6
+r1
+!s85 0
+31
+Z19 !s108 1643833332.000000
+!s107 D:\Comp Arch\Pipelined Processor\SV_Code\ARM.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|D:\Comp Arch\Pipelined Processor\SV_Code\ARM.sv|
+!i113 1
+R9
+R10
+n@a@r@m
+vcondcheck
+R0
+!s110 1643808477
+!i10b 1
+!s100 kV3C5NgMGE<lc4D77Yf6^1
+R1
+IiM0Xj?ThfGnSzG^PEdb=N3
+R2
+S1
+R3
+w1643808441
+Z20 8D:\Comp Arch\Pipelined Processor\SV_Code\CondCheck.sv
+Z21 FD:\Comp Arch\Pipelined Processor\SV_Code\CondCheck.sv
+!i122 11
+L0 1 30
+R6
+r1
+!s85 0
+31
+!s108 1643808476.000000
+Z22 !s107 D:\Comp Arch\Pipelined Processor\SV_Code\CondCheck.sv|
+Z23 !s90 -reportprogress|300|-work|work|-sv|-stats=none|D:\Comp Arch\Pipelined Processor\SV_Code\CondCheck.sv|
+!i113 1
+R9
+R10
+vCondCheck
+R0
+R11
+!i10b 1
+!s100 WNZ5blG9?LRZDTL@0lS@N1
+R1
+INMj@AUYjY;41j`iB4Sf5a2
+R2
+S1
+R3
+w1643823311
+R20
+R21
+!i122 59
+L0 1 35
+R6
+r1
+!s85 0
+31
+R13
+R22
+R23
+!i113 1
+R9
+R10
+n@cond@check
+vController
+R0
+!s110 1643901621
+!i10b 1
+!s100 4RBZz1eClcIo?E45`on>D1
+R1
+I0Zghb1GA[<YIPm;^L7M6c1
+R2
+S1
+R3
+w1643901612
+8D:\Comp Arch\Pipelined Processor\SV_Code\Controller.sv
+FD:\Comp Arch\Pipelined Processor\SV_Code\Controller.sv
+!i122 73
+L0 1 88
+R6
+r1
+!s85 0
+31
+!s108 1643901621.000000
+!s107 D:\Comp Arch\Pipelined Processor\SV_Code\Controller.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|D:\Comp Arch\Pipelined Processor\SV_Code\Controller.sv|
+!i113 1
+R9
+R10
+n@controller
+vDataPath
+R0
+R11
+!i10b 1
+!s100 TH>0Wnie<29?kUH>]lWj^3
+R1
+IzL2oKf@oFcDmo6=:h`=]33
+R2
+S1
+R3
+w1643826839
+R14
+R15
+!i122 56
+L0 1 71
+R6
+r1
+!s85 0
+31
+R13
+R16
+R17
+!i113 1
+R9
+R10
+n@data@path
+vdmem
+R0
+R18
+!i10b 1
+!s100 ^JjC^oba_n?Gi0XneYc4T3
+R1
+Ic5JDQclHIb303TkXgTYgS3
+R2
+S1
+R3
+w1643831299
+8D:\Comp Arch\Pipelined Processor\SV_Code\dmem.sv
+FD:\Comp Arch\Pipelined Processor\SV_Code\dmem.sv
+!i122 71
+L0 1 10
+R6
+r1
+!s85 0
+31
+R19
+!s107 D:\Comp Arch\Pipelined Processor\SV_Code\dmem.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|D:\Comp Arch\Pipelined Processor\SV_Code\dmem.sv|
+!i113 1
+R9
+R10
+veqcmp
+R0
+R18
+!i10b 1
+!s100 ZDMig6hVL:n377W;DmJN^0
+R1
+IMQ8C[Z6Z3Q7ca`A38c@f?2
+R2
+S1
+R3
+w1643823237
+8D:\Comp Arch\Pipelined Processor\SV_Code\eqcmp.sv
+FD:\Comp Arch\Pipelined Processor\SV_Code\eqcmp.sv
+!i122 66
+L0 1 5
+R6
+r1
+!s85 0
+31
+R19
+!s107 D:\Comp Arch\Pipelined Processor\SV_Code\eqcmp.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|D:\Comp Arch\Pipelined Processor\SV_Code\eqcmp.sv|
+!i113 1
+R9
+R10
+vExtend
+R0
+R11
+!i10b 1
+!s100 feafBk^[g6VjJX`:2<gM80
+R1
+IlIe>>0TFQm4Q7Z^z4:H^W1
+R2
+S1
+R3
+w1643807827
+8D:\Comp Arch\Pipelined Processor\SV_Code\Extend.sv
+FD:\Comp Arch\Pipelined Processor\SV_Code\Extend.sv
+!i122 57
+Z24 L0 1 14
+R6
+r1
+!s85 0
+31
+R13
+!s107 D:\Comp Arch\Pipelined Processor\SV_Code\Extend.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|D:\Comp Arch\Pipelined Processor\SV_Code\Extend.sv|
+!i113 1
+R9
+R10
+n@extend
+vflopenr
+R0
+R11
+!i10b 1
+!s100 KEd0Z<J@3C040>Pb0iig42
+R1
+I8?YJMj84WePIfa=kmEKR=2
+R2
+S1
+R3
+w1643822846
+8D:\Comp Arch\Pipelined Processor\SV_Code\flopenr.sv
+FD:\Comp Arch\Pipelined Processor\SV_Code\flopenr.sv
+!i122 63
+L0 1 11
+R6
+r1
+!s85 0
+31
+R13
+!s107 D:\Comp Arch\Pipelined Processor\SV_Code\flopenr.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|D:\Comp Arch\Pipelined Processor\SV_Code\flopenr.sv|
+!i113 1
+R9
+R10
+vflopenrc
+R0
+R18
+!i10b 1
+!s100 Yfhfd<k6zkm7:5:30W@YA2
+R1
+I6e_LzNYYa4T]W?Z9zB?EC0
+R2
+S1
+R3
+w1643822888
+8D:\Comp Arch\Pipelined Processor\SV_Code\flopenrc.sv
+FD:\Comp Arch\Pipelined Processor\SV_Code\flopenrc.sv
+!i122 64
+L0 1 15
+R6
+r1
+!s85 0
+31
+R19
+!s107 D:\Comp Arch\Pipelined Processor\SV_Code\flopenrc.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|D:\Comp Arch\Pipelined Processor\SV_Code\flopenrc.sv|
+!i113 1
+R9
+R10
+vflopr
+R0
+R11
+!i10b 1
+!s100 fSSkoCV4=bh4YT;Ph]fOz2
+R1
+I`=FV>0]ULAW;eiYW4TK_g3
+R2
+S1
+R3
+w1643822792
+8D:\Comp Arch\Pipelined Processor\SV_Code\flopr.sv
+FD:\Comp Arch\Pipelined Processor\SV_Code\flopr.sv
+!i122 62
+L0 1 12
+R6
+r1
+!s85 0
+31
+R13
+!s107 D:\Comp Arch\Pipelined Processor\SV_Code\flopr.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|D:\Comp Arch\Pipelined Processor\SV_Code\flopr.sv|
+!i113 1
+R9
+R10
+vfloprc
+R0
+R18
+!i10b 1
+!s100 ;lOB=Kb3aGl0XaC8HozW30
+R1
+Iehi84B1DMlHL=DDSYP?761
+R2
+S1
+R3
+w1643823180
+8D:\Comp Arch\Pipelined Processor\SV_Code\floprc.sv
+FD:\Comp Arch\Pipelined Processor\SV_Code\floprc.sv
+!i122 65
+L0 1 13
+R6
+r1
+!s85 0
+31
+R19
+!s107 D:\Comp Arch\Pipelined Processor\SV_Code\floprc.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|D:\Comp Arch\Pipelined Processor\SV_Code\floprc.sv|
+!i113 1
+R9
+R10
+vHazard
+R0
+R18
+!i10b 1
+!s100 z3k_6bAIcJ;83TzGSUBMT1
+R1
+IGi6_2WDTKdT44C<R7J27k2
+R2
+S1
+R3
+w1643823577
+8D:\Comp Arch\Pipelined Processor\SV_Code\Hazard.sv
+FD:\Comp Arch\Pipelined Processor\SV_Code\Hazard.sv
+!i122 68
+L0 1 43
+R6
+r1
+!s85 0
+31
+R19
+!s107 D:\Comp Arch\Pipelined Processor\SV_Code\Hazard.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|D:\Comp Arch\Pipelined Processor\SV_Code\Hazard.sv|
+!i113 1
+R9
+R10
+n@hazard
+vimem
+R0
+R18
+!i10b 1
+!s100 JgK_SkKE[WQEhVCY8OnSZ3
+R1
+IHcaREheOQUd1LLncSfa7k1
+R2
+S1
+R3
+w1643831203
+8D:\Comp Arch\Pipelined Processor\SV_Code\imem.sv
+FD:\Comp Arch\Pipelined Processor\SV_Code\imem.sv
+!i122 72
+R12
+R6
+r1
+!s85 0
+31
+R19
+!s107 D:\Comp Arch\Pipelined Processor\SV_Code\imem.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|D:\Comp Arch\Pipelined Processor\SV_Code\imem.sv|
+!i113 1
+R9
+R10
+vMUX2
+R0
+R11
+!i10b 1
+!s100 ]H88=4AkAgkZTgCKJ0LNk3
+R1
+Ia>DDjeUgfM0kcCJDT[0VS1
+R2
+S1
+R3
+w1643802921
+8D:\Comp Arch\Pipelined Processor\SV_Code\MUX2.sv
+FD:\Comp Arch\Pipelined Processor\SV_Code\MUX2.sv
+!i122 54
+Z25 L0 1 9
+R6
+r1
+!s85 0
+31
+R13
+!s107 D:\Comp Arch\Pipelined Processor\SV_Code\MUX2.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|D:\Comp Arch\Pipelined Processor\SV_Code\MUX2.sv|
+!i113 1
+R9
+R10
+n@m@u@x2
+vMUX3
+R0
+R11
+!i10b 1
+!s100 HC7ghn<QN8_0dW8EbcgCB0
+R1
+Ia`HOmnG9L?EZi2YV[o3Te3
+R2
+S1
+R3
+w1643802979
+8D:\Comp Arch\Pipelined Processor\SV_Code\MUX3.sv
+FD:\Comp Arch\Pipelined Processor\SV_Code\MUX3.sv
+!i122 55
+R25
+R6
+r1
+!s85 0
+31
+R13
+!s107 D:\Comp Arch\Pipelined Processor\SV_Code\MUX3.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|D:\Comp Arch\Pipelined Processor\SV_Code\MUX3.sv|
+!i113 1
+R9
+R10
+n@m@u@x3
+vRegFile
+R0
+R11
+!i10b 1
+!s100 81Obk9D6@JKj]=NEaP_CP3
+R1
+I2jBiGIOoUjG7454^6[U]22
+R2
+S1
+R3
+w1643833290
+Z26 8D:\Comp Arch\Pipelined Processor\SV_Code\RegFile.sv
+Z27 FD:\Comp Arch\Pipelined Processor\SV_Code\RegFile.sv
+!i122 60
+L0 1 16
+R6
+r1
+!s85 0
+31
+R13
+Z28 !s107 D:\Comp Arch\Pipelined Processor\SV_Code\RegFile.sv|
+Z29 !s90 -reportprogress|300|-work|work|-sv|-stats=none|D:\Comp Arch\Pipelined Processor\SV_Code\RegFile.sv|
+!i113 1
+R9
+R10
+n@reg@file
+vregfile
+R0
+!s110 1643809699
+!i10b 1
+!s100 Jde9SVhMf3`fIbM>6?ZMY0
+R1
+ILTd;DjEU7HD5BMD=TlEeY2
+R2
+S1
+R3
+w1643809696
+R26
+R27
+!i122 12
+L0 1 19
+R6
+r1
+!s85 0
+31
+!s108 1643809699.000000
+R28
+R29
+!i113 1
+R9
+R10
+vtestbench
+R0
+R18
+!i10b 1
+!s100 cn[`;jfA1?7PHhh525=jn2
+R1
+IP6Am_d[_C400gDA>01FGa1
+R2
+S1
+R3
+w1643832160
+8D:\Comp Arch\Pipelined Processor\SV_Code\testbench.sv
+FD:\Comp Arch\Pipelined Processor\SV_Code\testbench.sv
+!i122 70
+L0 1 31
+R6
+r1
+!s85 0
+31
+R19
+!s107 D:\Comp Arch\Pipelined Processor\SV_Code\testbench.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|D:\Comp Arch\Pipelined Processor\SV_Code\testbench.sv|
+!i113 1
+R9
+R10
+vTOP
+R0
+R18
+!i10b 1
+!s100 ZTCE^aCbRS=XK0SM@9[3O1
+R1
+IlDDh1nn;>lnDX`B7W=U8`2
+R2
+S1
+R3
+w1643823876
+8D:\Comp Arch\Pipelined Processor\SV_Code\TOP.sv
+FD:\Comp Arch\Pipelined Processor\SV_Code\TOP.sv
+!i122 69
+R24
+R6
+r1
+!s85 0
+31
+R19
+!s107 D:\Comp Arch\Pipelined Processor\SV_Code\TOP.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|D:\Comp Arch\Pipelined Processor\SV_Code\TOP.sv|
+!i113 1
+R9
+R10
+n@t@o@p

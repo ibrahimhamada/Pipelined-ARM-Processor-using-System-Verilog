@@ -1,0 +1,1470 @@
+# Compile of ALU.sv failed with 4 errors.
+# Compile of ALU.sv failed with 4 errors.
+# Compile of ALU.sv failed with 4 errors.
+# Compile of ALU.sv failed with 1 errors.
+# Compile of ALU.sv failed with 1 errors.
+# Compile of ALU.sv failed with 1 errors.
+# Compile of ALU.sv failed with 4 errors.
+# Compile of ALU.sv failed with 1 errors.
+# Compile of ALU.sv failed with 4 errors.
+# Compile of ALU.sv failed with 5 errors.
+# Compile of ALU.sv failed with 1 errors.
+# Compile of ALU.sv was successful.
+# Compile of ALU.sv was successful.
+# Compile of ALU.sv was successful.
+# Compile of MUX2.sv was successful.
+# Compile of MUX3.sv was successful.
+# Compile of ALU.sv was successful.
+# Compile of DataPath.sv was successful.
+vsim -gui work.ALU
+# vsim -gui work.ALU 
+# Start time: 14:44:05 on Feb 02,2022
+# Loading sv_std.std
+# Loading work.ALU
+add wave -position insertpoint  \
+sim:/ALU/SrcA \
+sim:/ALU/SrcB \
+sim:/ALU/ALUControl \
+sim:/ALU/ALUResult \
+sim:/ALU/ALUFlags \
+sim:/ALU/N \
+sim:/ALU/Z \
+sim:/ALU/C \
+sim:/ALU/V \
+sim:/ALU/condinvb \
+sim:/ALU/sum
+force -freeze sim:/ALU/SrcA 32'b0 0
+force -freeze sim:/ALU/SrcB 32'b1 0
+force -freeze sim:/ALU/ALUControl 000 0
+run
+force -freeze sim:/ALU/ALUControl 001 0
+run
+force -freeze sim:/ALU/ALUControl 010 0
+run
+run
+force -freeze sim:/ALU/ALUControl 011 0
+run
+force -freeze sim:/ALU/ALUControl 100 0
+run
+force -freeze sim:/ALU/SrcB 00000000000000000000000001111111 0
+run
+force -freeze sim:/ALU/ALUControl 110 0
+run
+force -freeze sim:/ALU/SrcA 01111111110000000000000000000000 0
+run
+quit -sim
+# End time: 14:53:53 on Feb 02,2022, Elapsed time: 0:09:48
+# Errors: 0, Warnings: 25
+# Compile of ALU.sv was successful.
+vsim -gui work.ALU
+# vsim -gui work.ALU 
+# Start time: 14:54:16 on Feb 02,2022
+# Loading sv_std.std
+# Loading work.ALU
+add wave -position insertpoint  \
+sim:/ALU/SrcA \
+sim:/ALU/SrcB \
+sim:/ALU/ALUControl \
+sim:/ALU/ALUResult \
+sim:/ALU/ALUFlags \
+sim:/ALU/N \
+sim:/ALU/Z \
+sim:/ALU/C \
+sim:/ALU/V \
+sim:/ALU/condinvb \
+sim:/ALU/sum
+force -freeze sim:/ALU/SrcA 32'b0 0
+force -freeze sim:/ALU/SrcB 32'b1 0
+force -freeze sim:/ALU/SrcA 00000011111100000000000000000000 0
+force -freeze sim:/ALU/ALUControl 110 0
+run
+force -freeze sim:/ALU/ALUControl 010 0
+run
+force -freeze sim:/ALU/SrcB 00000110000000000000000000000001 0
+run
+force -freeze sim:/ALU/ALUControl 110 0
+quit -sim
+# End time: 14:57:04 on Feb 02,2022, Elapsed time: 0:02:48
+# Errors: 0, Warnings: 2
+# Compile of ALU.sv was successful.
+vsim -gui work.ALU
+# vsim -gui work.ALU 
+# Start time: 14:57:22 on Feb 02,2022
+# Loading sv_std.std
+# Loading work.ALU
+add wave -position insertpoint  \
+sim:/ALU/SrcA \
+sim:/ALU/SrcB \
+sim:/ALU/ALUControl \
+sim:/ALU/ALUResult \
+sim:/ALU/ALUFlags \
+sim:/ALU/N \
+sim:/ALU/Z \
+sim:/ALU/C \
+sim:/ALU/V \
+sim:/ALU/condinvb \
+sim:/ALU/sum
+force -freeze sim:/ALU/SrcA 32'b0 0
+force -freeze sim:/ALU/SrcB 32'b1 0
+force -freeze sim:/ALU/SrcA 00000000000000111111110000000000 0
+force -freeze sim:/ALU/SrcB 00000000000000000000011111100001 0
+force -freeze sim:/ALU/ALUControl 110 0
+run
+force -freeze sim:/ALU/SrcA 00000000000000111111110000011110 0
+run
+quit -sim
+# End time: 14:59:57 on Feb 02,2022, Elapsed time: 0:02:35
+# Errors: 0, Warnings: 2
+# Compile of Extend.sv was successful.
+# Compile of Extend.sv was successful.
+# Compile of Adder.sv was successful.
+# Compile of CondCheck.sv was successful.
+# Compile of RegFile.sv was successful.
+# Compile of RegFile.sv was successful.
+# Compile of Controller.sv failed with 1 errors.
+# Compile of Controller.sv was successful.
+# Compile of flopr.sv was successful.
+# Compile of flopenr.sv was successful.
+# Compile of flopenrc.sv was successful.
+# Compile of floprc.sv was successful.
+# Compile of eqcmp.sv was successful.
+# Compile of CondCheck.sv was successful.
+# Compile of ARM.sv was successful.
+# Compile of Hazard.sv was successful.
+# Compile of DataPath.sv was successful.
+# Compile of TOP.sv was successful.
+# Compile of Adder.sv was successful.
+# Compile of ARM.sv was successful.
+# Compile of Controller.sv was successful.
+# Compile of DataPath.sv was successful.
+# Compile of testbench.sv was successful.
+# Compile of dmem.sv was successful.
+# Compile of imem.sv was successful.
+# Compile of dmem.sv was successful.
+vsim -gui work.testbench
+# vsim -gui work.testbench 
+# Start time: 21:59:46 on Feb 02,2022
+# Loading sv_std.std
+# Loading work.testbench
+# Loading work.TOP
+# Loading work.ARM
+# Loading work.Controller
+# Loading work.floprc
+# Loading work.flopr
+# Loading work.CondCheck
+# Loading work.DataPath
+# Loading work.MUX2
+# Loading work.flopenr
+# Loading work.Adder
+# Loading work.flopenrc
+# Loading work.RegFile
+# Loading work.Extend
+# Loading work.MUX3
+# Loading work.ALU
+# Loading work.eqcmp
+# Loading work.Hazard
+# Loading work.imem
+# Loading work.dmem
+# ** Warning: (vsim-3015) [PCDPC] - Port size (4) does not match connection size (3) for port 'q'. The port definition is at: D:/Comp Arch/Pipelined Processor/SV_Code/flopr.sv(5).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/dut/arm/c/regsE File: D:/Comp Arch/Pipelined Processor/SV_Code/Controller.sv Line: 68
+# ** Warning: (vsim-3015) [PCDPC] - Port size (3) does not match connection size (2) for port 'ALUControlE'. The port definition is at: D:/Comp Arch/Pipelined Processor/SV_Code/DataPath.sv(4).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/dut/arm/dp File: D:/Comp Arch/Pipelined Processor/SV_Code/ARM.sv Line: 19
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'rf'.  Expected 11, found 9.
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/dut/arm/dp/rf File: D:/Comp Arch/Pipelined Processor/SV_Code/DataPath.sv Line: 36
+# ** Warning: (vsim-3015) [PCDPC] - Port size (4) does not match connection size (32) for port 'wa3'. The port definition is at: D:/Comp Arch/Pipelined Processor/SV_Code/RegFile.sv(3).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/dut/arm/dp/rf File: D:/Comp Arch/Pipelined Processor/SV_Code/DataPath.sv Line: 36
+# ** Warning: (vsim-3722) D:/Comp Arch/Pipelined Processor/SV_Code/DataPath.sv(36): [TFMPC] - Missing connection for port 'rd2'.
+# ** Warning: (vsim-3722) D:/Comp Arch/Pipelined Processor/SV_Code/DataPath.sv(36): [TFMPC] - Missing connection for port 'rd3'.
+add wave -position insertpoint  \
+sim:/testbench/clk \
+sim:/testbench/reset \
+sim:/testbench/WriteData \
+sim:/testbench/DataAdr \
+sim:/testbench/MemWrite
+run
+quit -sim
+# End time: 22:02:24 on Feb 02,2022, Elapsed time: 0:02:38
+# Errors: 0, Warnings: 55
+vsim -gui work.testbench
+# vsim -gui work.testbench 
+# Start time: 22:02:54 on Feb 02,2022
+# Loading sv_std.std
+# Loading work.testbench
+# Loading work.TOP
+# Loading work.ARM
+# Loading work.Controller
+# Loading work.floprc
+# Loading work.flopr
+# Loading work.CondCheck
+# Loading work.DataPath
+# Loading work.MUX2
+# Loading work.flopenr
+# Loading work.Adder
+# Loading work.flopenrc
+# Loading work.RegFile
+# Loading work.Extend
+# Loading work.MUX3
+# Loading work.ALU
+# Loading work.eqcmp
+# Loading work.Hazard
+# Loading work.imem
+# Loading work.dmem
+# ** Warning: (vsim-3015) [PCDPC] - Port size (4) does not match connection size (3) for port 'q'. The port definition is at: D:/Comp Arch/Pipelined Processor/SV_Code/flopr.sv(5).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/dut/arm/c/regsE File: D:/Comp Arch/Pipelined Processor/SV_Code/Controller.sv Line: 68
+# ** Warning: (vsim-3015) [PCDPC] - Port size (3) does not match connection size (2) for port 'ALUControlE'. The port definition is at: D:/Comp Arch/Pipelined Processor/SV_Code/DataPath.sv(4).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/dut/arm/dp File: D:/Comp Arch/Pipelined Processor/SV_Code/ARM.sv Line: 19
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'rf'.  Expected 11, found 9.
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/dut/arm/dp/rf File: D:/Comp Arch/Pipelined Processor/SV_Code/DataPath.sv Line: 36
+# ** Warning: (vsim-3015) [PCDPC] - Port size (4) does not match connection size (32) for port 'wa3'. The port definition is at: D:/Comp Arch/Pipelined Processor/SV_Code/RegFile.sv(3).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/dut/arm/dp/rf File: D:/Comp Arch/Pipelined Processor/SV_Code/DataPath.sv Line: 36
+# ** Warning: (vsim-3722) D:/Comp Arch/Pipelined Processor/SV_Code/DataPath.sv(36): [TFMPC] - Missing connection for port 'rd2'.
+# ** Warning: (vsim-3722) D:/Comp Arch/Pipelined Processor/SV_Code/DataPath.sv(36): [TFMPC] - Missing connection for port 'rd3'.
+add wave -position insertpoint  \
+sim:/testbench/clk \
+sim:/testbench/reset \
+sim:/testbench/WriteData \
+sim:/testbench/DataAdr \
+sim:/testbench/MemWrite
+run
+# WARNING: No extended dataflow license exists
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# WARNING: No extended dataflow license exists
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+run
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+run
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+run
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+run
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+run
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+run
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+quit -sim
+# End time: 22:08:06 on Feb 02,2022, Elapsed time: 0:05:12
+# Errors: 0, Warnings: 7
+# Compile of ALU.sv was successful.
+# Compile of MUX2.sv was successful.
+# Compile of MUX3.sv was successful.
+# Compile of DataPath.sv was successful.
+# Compile of Extend.sv was successful.
+# Compile of Adder.sv was successful.
+# Compile of CondCheck.sv was successful.
+# Compile of RegFile.sv was successful.
+# Compile of Controller.sv was successful.
+# Compile of flopr.sv was successful.
+# Compile of flopenr.sv was successful.
+# Compile of flopenrc.sv was successful.
+# Compile of floprc.sv was successful.
+# Compile of eqcmp.sv was successful.
+# Compile of ARM.sv was successful.
+# Compile of Hazard.sv was successful.
+# Compile of TOP.sv was successful.
+# Compile of testbench.sv was successful.
+# Compile of dmem.sv was successful.
+# Compile of imem.sv was successful.
+# 20 compiles, 0 failed with no errors.
+vsim -gui work.testbench
+# vsim -gui work.testbench 
+# Start time: 22:09:46 on Feb 02,2022
+# Loading sv_std.std
+# Loading work.testbench
+# Loading work.TOP
+# Loading work.ARM
+# Loading work.Controller
+# Loading work.floprc
+# Loading work.flopr
+# Loading work.CondCheck
+# Loading work.DataPath
+# Loading work.MUX2
+# Loading work.flopenr
+# Loading work.Adder
+# Loading work.flopenrc
+# Loading work.RegFile
+# Loading work.Extend
+# Loading work.MUX3
+# Loading work.ALU
+# Loading work.eqcmp
+# Loading work.Hazard
+# Loading work.imem
+# Loading work.dmem
+# ** Warning: (vsim-3015) [PCDPC] - Port size (4) does not match connection size (3) for port 'q'. The port definition is at: D:/Comp Arch/Pipelined Processor/SV_Code/flopr.sv(5).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/dut/arm/c/regsE File: D:/Comp Arch/Pipelined Processor/SV_Code/Controller.sv Line: 68
+# ** Warning: (vsim-3015) [PCDPC] - Port size (3) does not match connection size (2) for port 'ALUControlE'. The port definition is at: D:/Comp Arch/Pipelined Processor/SV_Code/DataPath.sv(4).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/dut/arm/dp File: D:/Comp Arch/Pipelined Processor/SV_Code/ARM.sv Line: 19
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'rf'.  Expected 11, found 9.
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/dut/arm/dp/rf File: D:/Comp Arch/Pipelined Processor/SV_Code/DataPath.sv Line: 36
+# ** Warning: (vsim-3015) [PCDPC] - Port size (4) does not match connection size (32) for port 'wa3'. The port definition is at: D:/Comp Arch/Pipelined Processor/SV_Code/RegFile.sv(3).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/dut/arm/dp/rf File: D:/Comp Arch/Pipelined Processor/SV_Code/DataPath.sv Line: 36
+# ** Warning: (vsim-3722) D:/Comp Arch/Pipelined Processor/SV_Code/DataPath.sv(36): [TFMPC] - Missing connection for port 'rd2'.
+# ** Warning: (vsim-3722) D:/Comp Arch/Pipelined Processor/SV_Code/DataPath.sv(36): [TFMPC] - Missing connection for port 'rd3'.
+add wave -position insertpoint  \
+sim:/testbench/clk \
+sim:/testbench/reset \
+sim:/testbench/WriteData \
+sim:/testbench/DataAdr \
+sim:/testbench/MemWrite
+run
+quit -sim
+# End time: 22:13:14 on Feb 02,2022, Elapsed time: 0:03:28
+# Errors: 0, Warnings: 8
+# Compile of ALU.sv was successful.
+# Compile of MUX2.sv was successful.
+# Compile of MUX3.sv was successful.
+# Compile of DataPath.sv was successful.
+# Compile of Extend.sv was successful.
+# Compile of Adder.sv was successful.
+# Compile of CondCheck.sv was successful.
+# Compile of RegFile.sv was successful.
+# Compile of Controller.sv was successful.
+# Compile of flopr.sv was successful.
+# Compile of flopenr.sv was successful.
+# Compile of flopenrc.sv was successful.
+# Compile of floprc.sv was successful.
+# Compile of eqcmp.sv was successful.
+# Compile of ARM.sv was successful.
+# Compile of Hazard.sv was successful.
+# Compile of TOP.sv was successful.
+# Compile of testbench.sv was successful.
+# Compile of dmem.sv was successful.
+# Compile of imem.sv was successful.
+# 20 compiles, 0 failed with no errors.
+vsim -gui work.testbench
+# vsim -gui work.testbench 
+# Start time: 22:22:23 on Feb 02,2022
+# Loading sv_std.std
+# Loading work.testbench
+# Loading work.TOP
+# Loading work.ARM
+# Loading work.Controller
+# Loading work.floprc
+# Loading work.flopr
+# Loading work.CondCheck
+# Loading work.DataPath
+# Loading work.MUX2
+# Loading work.flopenr
+# Loading work.Adder
+# Loading work.flopenrc
+# Loading work.RegFile
+# Loading work.Extend
+# Loading work.MUX3
+# Loading work.ALU
+# Loading work.eqcmp
+# Loading work.Hazard
+# Loading work.imem
+# Loading work.dmem
+add wave -position insertpoint  \
+sim:/testbench/clk \
+sim:/testbench/reset \
+sim:/testbench/WriteData \
+sim:/testbench/DataAdr \
+sim:/testbench/MemWrite
+run
+run
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+add wave -position insertpoint  \
+sim:/testbench/clk \
+sim:/testbench/reset \
+sim:/testbench/WriteData \
+sim:/testbench/DataAdr \
+sim:/testbench/MemWrite
+restart
+add wave -position insertpoint  \
+sim:/testbench/dut/arm/clk \
+sim:/testbench/dut/arm/reset \
+sim:/testbench/dut/arm/PCF \
+sim:/testbench/dut/arm/InstrF \
+sim:/testbench/dut/arm/MemWriteM \
+sim:/testbench/dut/arm/ALUOutM \
+sim:/testbench/dut/arm/WriteDataM \
+sim:/testbench/dut/arm/ReadDataM \
+sim:/testbench/dut/arm/RegSrcD \
+sim:/testbench/dut/arm/ImmSrcD \
+sim:/testbench/dut/arm/ALUControlE \
+sim:/testbench/dut/arm/ALUSrcE \
+sim:/testbench/dut/arm/BranchTakenE \
+sim:/testbench/dut/arm/MemtoRegW \
+sim:/testbench/dut/arm/PCSrcW \
+sim:/testbench/dut/arm/RegWriteW \
+sim:/testbench/dut/arm/ALUFlagsE \
+sim:/testbench/dut/arm/InstrD \
+sim:/testbench/dut/arm/RegWriteM \
+sim:/testbench/dut/arm/MemtoRegE \
+sim:/testbench/dut/arm/PCWrPendingF \
+sim:/testbench/dut/arm/ForwardAE \
+sim:/testbench/dut/arm/ForwardBE \
+sim:/testbench/dut/arm/StallF \
+sim:/testbench/dut/arm/StallD \
+sim:/testbench/dut/arm/FlushD \
+sim:/testbench/dut/arm/FlushE \
+sim:/testbench/dut/arm/Match_1E_M \
+sim:/testbench/dut/arm/Match_1E_W \
+sim:/testbench/dut/arm/Match_2E_M \
+sim:/testbench/dut/arm/Match_2E_W \
+sim:/testbench/dut/arm/Match_12D_E \
+sim:/testbench/dut/arm/#implicit-var#InstrD
+# ** UI-Msg: (vish-4014) No objects found matching '/testbench/dut/arm/#implicit-var#InstrD'.
+run
+run
+restart
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+# Simulation succeeded
+# ** Note: $stop    : D:/Comp Arch/Pipelined Processor/SV_Code/testbench.sv(24)
+#    Time: 365 ps  Iteration: 1  Instance: /testbench
+# Break in Module testbench at D:/Comp Arch/Pipelined Processor/SV_Code/testbench.sv line 24
+quit -sim
+# End time: 22:47:04 on Feb 02,2022, Elapsed time: 0:24:41
+# Errors: 0, Warnings: 1
+vsim -gui work.testbench
+# vsim -gui work.testbench 
+# Start time: 23:11:30 on Feb 02,2022
+# Loading sv_std.std
+# Loading work.testbench
+# Loading work.TOP
+# Loading work.ARM
+# Loading work.Controller
+# Loading work.floprc
+# Loading work.flopr
+# Loading work.CondCheck
+# Loading work.DataPath
+# Loading work.MUX2
+# Loading work.flopenr
+# Loading work.Adder
+# Loading work.flopenrc
+# Loading work.RegFile
+# Loading work.Extend
+# Loading work.MUX3
+# Loading work.ALU
+# Loading work.eqcmp
+# Loading work.Hazard
+# Loading work.imem
+# Loading work.dmem
+add wave -position insertpoint  \
+sim:/testbench/dut/arm/clk \
+sim:/testbench/dut/arm/reset \
+sim:/testbench/dut/arm/PCF \
+sim:/testbench/dut/arm/InstrF \
+sim:/testbench/dut/arm/MemWriteM \
+sim:/testbench/dut/arm/ALUOutM \
+sim:/testbench/dut/arm/WriteDataM \
+sim:/testbench/dut/arm/ReadDataM \
+sim:/testbench/dut/arm/RegSrcD \
+sim:/testbench/dut/arm/ImmSrcD \
+sim:/testbench/dut/arm/ALUControlE \
+sim:/testbench/dut/arm/ALUSrcE \
+sim:/testbench/dut/arm/BranchTakenE \
+sim:/testbench/dut/arm/MemtoRegW \
+sim:/testbench/dut/arm/PCSrcW \
+sim:/testbench/dut/arm/RegWriteW \
+sim:/testbench/dut/arm/ALUFlagsE \
+sim:/testbench/dut/arm/InstrD \
+sim:/testbench/dut/arm/RegWriteM \
+sim:/testbench/dut/arm/MemtoRegE \
+sim:/testbench/dut/arm/PCWrPendingF \
+sim:/testbench/dut/arm/ForwardAE \
+sim:/testbench/dut/arm/ForwardBE \
+sim:/testbench/dut/arm/StallF \
+sim:/testbench/dut/arm/StallD \
+sim:/testbench/dut/arm/FlushD \
+sim:/testbench/dut/arm/FlushE \
+sim:/testbench/dut/arm/Match_1E_M \
+sim:/testbench/dut/arm/Match_1E_W \
+sim:/testbench/dut/arm/Match_2E_M \
+sim:/testbench/dut/arm/Match_2E_W \
+sim:/testbench/dut/arm/Match_12D_E
+run
+run
+run
+run
+run
+# Simulation succeeded
+# ** Note: $stop    : D:/Comp Arch/Pipelined Processor/SV_Code/testbench.sv(24)
+#    Time: 365 ps  Iteration: 1  Instance: /testbench
+# Break in Module testbench at D:/Comp Arch/Pipelined Processor/SV_Code/testbench.sv line 24
+restart
+add wave -position insertpoint  \
+sim:/testbench/clk \
+sim:/testbench/reset \
+sim:/testbench/WriteData \
+sim:/testbench/DataAdr \
+sim:/testbench/MemWrite
+run
+run
+run
+run
+# Simulation succeeded
+# ** Note: $stop    : D:/Comp Arch/Pipelined Processor/SV_Code/testbench.sv(24)
+#    Time: 365 ps  Iteration: 1  Instance: /testbench
+# Break in Module testbench at D:/Comp Arch/Pipelined Processor/SV_Code/testbench.sv line 24
+quit -sim
+# End time: 23:26:08 on Feb 02,2022, Elapsed time: 0:14:38
+# Errors: 0, Warnings: 1
+vsim -gui work.testbench
+# vsim -gui work.testbench 
+# Start time: 23:26:19 on Feb 02,2022
+# Loading sv_std.std
+# Loading work.testbench
+# Loading work.TOP
+# Loading work.ARM
+# Loading work.Controller
+# Loading work.floprc
+# Loading work.flopr
+# Loading work.CondCheck
+# Loading work.DataPath
+# Loading work.MUX2
+# Loading work.flopenr
+# Loading work.Adder
+# Loading work.flopenrc
+# Loading work.RegFile
+# Loading work.Extend
+# Loading work.MUX3
+# Loading work.ALU
+# Loading work.eqcmp
+# Loading work.Hazard
+# Loading work.imem
+# Loading work.dmem
+add wave -position insertpoint  \
+sim:/testbench/dut/arm/clk \
+sim:/testbench/dut/arm/reset \
+sim:/testbench/dut/arm/PCF \
+sim:/testbench/dut/arm/InstrF \
+sim:/testbench/dut/arm/MemWriteM \
+sim:/testbench/dut/arm/ALUOutM \
+sim:/testbench/dut/arm/WriteDataM \
+sim:/testbench/dut/arm/ReadDataM \
+sim:/testbench/dut/arm/RegSrcD \
+sim:/testbench/dut/arm/ImmSrcD \
+sim:/testbench/dut/arm/ALUControlE \
+sim:/testbench/dut/arm/ALUSrcE \
+sim:/testbench/dut/arm/BranchTakenE \
+sim:/testbench/dut/arm/MemtoRegW \
+sim:/testbench/dut/arm/PCSrcW \
+sim:/testbench/dut/arm/RegWriteW \
+sim:/testbench/dut/arm/ALUFlagsE \
+sim:/testbench/dut/arm/InstrD \
+sim:/testbench/dut/arm/RegWriteM \
+sim:/testbench/dut/arm/MemtoRegE \
+sim:/testbench/dut/arm/PCWrPendingF \
+sim:/testbench/dut/arm/ForwardAE \
+sim:/testbench/dut/arm/ForwardBE \
+sim:/testbench/dut/arm/StallF \
+sim:/testbench/dut/arm/StallD \
+sim:/testbench/dut/arm/FlushD \
+sim:/testbench/dut/arm/FlushE \
+sim:/testbench/dut/arm/Match_1E_M \
+sim:/testbench/dut/arm/Match_1E_W \
+sim:/testbench/dut/arm/Match_2E_M \
+sim:/testbench/dut/arm/Match_2E_W \
+sim:/testbench/dut/arm/Match_12D_E
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+restart
+run
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+quit -sim
+# End time: 23:50:40 on Feb 02,2022, Elapsed time: 0:24:21
+# Errors: 0, Warnings: 1
+vsim -gui work.testbench
+# vsim -gui work.testbench 
+# Start time: 23:50:47 on Feb 02,2022
+# Loading sv_std.std
+# Loading work.testbench
+# Loading work.TOP
+# Loading work.ARM
+# Loading work.Controller
+# Loading work.floprc
+# Loading work.flopr
+# Loading work.CondCheck
+# Loading work.DataPath
+# Loading work.MUX2
+# Loading work.flopenr
+# Loading work.Adder
+# Loading work.flopenrc
+# Loading work.RegFile
+# Loading work.Extend
+# Loading work.MUX3
+# Loading work.ALU
+# Loading work.eqcmp
+# Loading work.Hazard
+# Loading work.imem
+# Loading work.dmem
+add wave -position insertpoint  \
+sim:/testbench/dut/arm/clk \
+sim:/testbench/dut/arm/reset \
+sim:/testbench/dut/arm/PCF \
+sim:/testbench/dut/arm/InstrF \
+sim:/testbench/dut/arm/MemWriteM \
+sim:/testbench/dut/arm/ALUOutM \
+sim:/testbench/dut/arm/WriteDataM \
+sim:/testbench/dut/arm/ReadDataM \
+sim:/testbench/dut/arm/RegSrcD \
+sim:/testbench/dut/arm/ImmSrcD \
+sim:/testbench/dut/arm/ALUControlE \
+sim:/testbench/dut/arm/ALUSrcE \
+sim:/testbench/dut/arm/BranchTakenE \
+sim:/testbench/dut/arm/MemtoRegW \
+sim:/testbench/dut/arm/PCSrcW \
+sim:/testbench/dut/arm/RegWriteW \
+sim:/testbench/dut/arm/ALUFlagsE \
+sim:/testbench/dut/arm/InstrD \
+sim:/testbench/dut/arm/RegWriteM \
+sim:/testbench/dut/arm/MemtoRegE \
+sim:/testbench/dut/arm/PCWrPendingF \
+sim:/testbench/dut/arm/ForwardAE \
+sim:/testbench/dut/arm/ForwardBE \
+sim:/testbench/dut/arm/StallF \
+sim:/testbench/dut/arm/StallD \
+sim:/testbench/dut/arm/FlushD \
+sim:/testbench/dut/arm/FlushE \
+sim:/testbench/dut/arm/Match_1E_M \
+sim:/testbench/dut/arm/Match_1E_W \
+sim:/testbench/dut/arm/Match_2E_M \
+sim:/testbench/dut/arm/Match_2E_W \
+sim:/testbench/dut/arm/Match_12D_E
+run
+run
+run
+run
+quit -sim
+# End time: 00:47:53 on Feb 03,2022, Elapsed time: 0:57:06
+# Errors: 0, Warnings: 1
+vsim -gui work.testbench
+# vsim -gui work.testbench 
+# Start time: 00:48:34 on Feb 03,2022
+# Loading sv_std.std
+# Loading work.testbench
+# Loading work.TOP
+# Loading work.ARM
+# Loading work.Controller
+# Loading work.floprc
+# Loading work.flopr
+# Loading work.CondCheck
+# Loading work.DataPath
+# Loading work.MUX2
+# Loading work.flopenr
+# Loading work.Adder
+# Loading work.flopenrc
+# Loading work.RegFile
+# Loading work.Extend
+# Loading work.MUX3
+# Loading work.ALU
+# Loading work.eqcmp
+# Loading work.Hazard
+# Loading work.imem
+# Loading work.dmem
+add wave -position insertpoint  \
+sim:/testbench/dut/arm/clk \
+sim:/testbench/dut/arm/reset \
+sim:/testbench/dut/arm/PCF \
+sim:/testbench/dut/arm/InstrF \
+sim:/testbench/dut/arm/MemWriteM \
+sim:/testbench/dut/arm/ALUOutM \
+sim:/testbench/dut/arm/WriteDataM \
+sim:/testbench/dut/arm/ReadDataM \
+sim:/testbench/dut/arm/RegSrcD \
+sim:/testbench/dut/arm/ImmSrcD \
+sim:/testbench/dut/arm/ALUControlE \
+sim:/testbench/dut/arm/ALUSrcE \
+sim:/testbench/dut/arm/BranchTakenE \
+sim:/testbench/dut/arm/MemtoRegW \
+sim:/testbench/dut/arm/PCSrcW \
+sim:/testbench/dut/arm/RegWriteW \
+sim:/testbench/dut/arm/ALUFlagsE \
+sim:/testbench/dut/arm/InstrD \
+sim:/testbench/dut/arm/RegWriteM \
+sim:/testbench/dut/arm/MemtoRegE \
+sim:/testbench/dut/arm/PCWrPendingF \
+sim:/testbench/dut/arm/ForwardAE \
+sim:/testbench/dut/arm/ForwardBE \
+sim:/testbench/dut/arm/StallF \
+sim:/testbench/dut/arm/StallD \
+sim:/testbench/dut/arm/FlushD \
+sim:/testbench/dut/arm/FlushE \
+sim:/testbench/dut/arm/Match_1E_M \
+sim:/testbench/dut/arm/Match_1E_W \
+sim:/testbench/dut/arm/Match_2E_M \
+sim:/testbench/dut/arm/Match_2E_W \
+sim:/testbench/dut/arm/Match_12D_E \
+sim:/testbench/dut/arm/#implicit-var#InstrD
+# ** UI-Msg: (vish-4014) No objects found matching '/testbench/dut/arm/#implicit-var#InstrD'.
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+restart
+run
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+restart
+run
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+run
+run
+restart
+run
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+run
+run
+run
+# Simulation succeeded
+# ** Note: $stop    : D:/Comp Arch/Pipelined Processor/SV_Code/testbench.sv(24)
+#    Time: 345 ps  Iteration: 1  Instance: /testbench
+# Break in Module testbench at D:/Comp Arch/Pipelined Processor/SV_Code/testbench.sv line 24
+quit -sim
+vsim -gui work.testbench
+# End time: 01:30:56 on Feb 03,2022, Elapsed time: 0:42:22
+# Errors: 0, Warnings: 1
+# vsim -gui work.testbench 
+# Start time: 01:30:56 on Feb 03,2022
+# Loading sv_std.std
+# Loading work.testbench
+# Loading work.TOP
+# Loading work.ARM
+# Loading work.Controller
+# Loading work.floprc
+# Loading work.flopr
+# Loading work.CondCheck
+# Loading work.DataPath
+# Loading work.MUX2
+# Loading work.flopenr
+# Loading work.Adder
+# Loading work.flopenrc
+# Loading work.RegFile
+# Loading work.Extend
+# Loading work.MUX3
+# Loading work.ALU
+# Loading work.eqcmp
+# Loading work.Hazard
+# Loading work.imem
+# Loading work.dmem
+add wave -position insertpoint  \
+sim:/testbench/dut/arm/clk \
+sim:/testbench/dut/arm/reset \
+sim:/testbench/dut/arm/PCF \
+sim:/testbench/dut/arm/InstrF \
+sim:/testbench/dut/arm/MemWriteM \
+sim:/testbench/dut/arm/ALUOutM \
+sim:/testbench/dut/arm/WriteDataM \
+sim:/testbench/dut/arm/ReadDataM \
+sim:/testbench/dut/arm/RegSrcD \
+sim:/testbench/dut/arm/ImmSrcD \
+sim:/testbench/dut/arm/ALUControlE \
+sim:/testbench/dut/arm/ALUSrcE \
+sim:/testbench/dut/arm/BranchTakenE \
+sim:/testbench/dut/arm/MemtoRegW \
+sim:/testbench/dut/arm/PCSrcW \
+sim:/testbench/dut/arm/RegWriteW \
+sim:/testbench/dut/arm/ALUFlagsE \
+sim:/testbench/dut/arm/InstrD \
+sim:/testbench/dut/arm/RegWriteM \
+sim:/testbench/dut/arm/MemtoRegE \
+sim:/testbench/dut/arm/PCWrPendingF \
+sim:/testbench/dut/arm/ForwardAE \
+sim:/testbench/dut/arm/ForwardBE \
+sim:/testbench/dut/arm/StallF \
+sim:/testbench/dut/arm/StallD \
+sim:/testbench/dut/arm/FlushD \
+sim:/testbench/dut/arm/FlushE \
+sim:/testbench/dut/arm/Match_1E_M \
+sim:/testbench/dut/arm/Match_1E_W \
+sim:/testbench/dut/arm/Match_2E_M \
+sim:/testbench/dut/arm/Match_2E_W \
+sim:/testbench/dut/arm/Match_12D_E
+run
+run
+run
+run
+run
+# Simulation succeeded
+# ** Note: $stop    : D:/Comp Arch/Pipelined Processor/SV_Code/testbench.sv(24)
+#    Time: 405 ps  Iteration: 1  Instance: /testbench
+# Break in Module testbench at D:/Comp Arch/Pipelined Processor/SV_Code/testbench.sv line 24
+restart
+restart
+run
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+restart
+run
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+quit -sim
+vsim -gui work.testbench
+# End time: 02:00:56 on Feb 03,2022, Elapsed time: 0:30:00
+# Errors: 0, Warnings: 1
+# vsim -gui work.testbench 
+# Start time: 02:00:56 on Feb 03,2022
+# Loading sv_std.std
+# Loading work.testbench
+# Loading work.TOP
+# Loading work.ARM
+# Loading work.Controller
+# Loading work.floprc
+# Loading work.flopr
+# Loading work.CondCheck
+# Loading work.DataPath
+# Loading work.MUX2
+# Loading work.flopenr
+# Loading work.Adder
+# Loading work.flopenrc
+# Loading work.RegFile
+# Loading work.Extend
+# Loading work.MUX3
+# Loading work.ALU
+# Loading work.eqcmp
+# Loading work.Hazard
+# Loading work.imem
+# Loading work.dmem
+add wave -position insertpoint  \
+sim:/testbench/dut/arm/clk \
+sim:/testbench/dut/arm/reset \
+sim:/testbench/dut/arm/PCF \
+sim:/testbench/dut/arm/InstrF \
+sim:/testbench/dut/arm/MemWriteM \
+sim:/testbench/dut/arm/ALUOutM \
+sim:/testbench/dut/arm/WriteDataM \
+sim:/testbench/dut/arm/ReadDataM \
+sim:/testbench/dut/arm/RegSrcD \
+sim:/testbench/dut/arm/ImmSrcD \
+sim:/testbench/dut/arm/ALUControlE \
+sim:/testbench/dut/arm/ALUSrcE \
+sim:/testbench/dut/arm/BranchTakenE \
+sim:/testbench/dut/arm/MemtoRegW \
+sim:/testbench/dut/arm/PCSrcW \
+sim:/testbench/dut/arm/RegWriteW \
+sim:/testbench/dut/arm/ALUFlagsE \
+sim:/testbench/dut/arm/InstrD \
+sim:/testbench/dut/arm/RegWriteM \
+sim:/testbench/dut/arm/MemtoRegE \
+sim:/testbench/dut/arm/PCWrPendingF \
+sim:/testbench/dut/arm/ForwardAE \
+sim:/testbench/dut/arm/ForwardBE \
+sim:/testbench/dut/arm/StallF \
+sim:/testbench/dut/arm/StallD \
+sim:/testbench/dut/arm/FlushD \
+sim:/testbench/dut/arm/FlushE \
+sim:/testbench/dut/arm/Match_1E_M \
+sim:/testbench/dut/arm/Match_1E_W \
+sim:/testbench/dut/arm/Match_2E_M \
+sim:/testbench/dut/arm/Match_2E_W \
+sim:/testbench/dut/arm/Match_12D_E
+run
+run
+run
+run
+run
+run
+run
+run
+restart
+run
+# Simulation succeeded
+# ** Note: $stop    : D:/Comp Arch/Pipelined Processor/SV_Code/testbench.sv(24)
+#    Time: 355 ps  Iteration: 1  Instance: /testbench
+# Break in Module testbench at D:/Comp Arch/Pipelined Processor/SV_Code/testbench.sv line 24
+# A time value could not be extracted from the current line
+restart
+run
+# Simulation succeeded
+# ** Note: $stop    : D:/Comp Arch/Pipelined Processor/SV_Code/testbench.sv(24)
+#    Time: 355 ps  Iteration: 1  Instance: /testbench
+# Break in Module testbench at D:/Comp Arch/Pipelined Processor/SV_Code/testbench.sv line 24
+restart
+run
+# ** Warning: (vsim-PLI-3406) Too many digits (32) in data on line 1 of file "memfile.dat". (Max is 8.)    : D:/Comp Arch/Pipelined Processor/SV_Code/imem.sv(5)
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/dut/imem
+# ** Warning: (vsim-PLI-3406) Too many digits (32) in data on line 1 of file "memfile.dat". (Max is 8.)    : D:/Comp Arch/Pipelined Processor/SV_Code/dmem.sv(6)
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/dut/dmem
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+run
+# Simulation succeeded
+# ** Note: $stop    : D:/Comp Arch/Pipelined Processor/SV_Code/testbench.sv(24)
+#    Time: 425 ps  Iteration: 1  Instance: /testbench
+# Break in Module testbench at D:/Comp Arch/Pipelined Processor/SV_Code/testbench.sv line 24
+restart
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+# Simulation succeeded
+# ** Note: $stop    : D:/Comp Arch/Pipelined Processor/SV_Code/testbench.sv(24)
+#    Time: 425 ps  Iteration: 1  Instance: /testbench
+# Break in Module testbench at D:/Comp Arch/Pipelined Processor/SV_Code/testbench.sv line 24
+restart
+run
+# Simulation succeeded
+# ** Note: $stop    : D:/Comp Arch/Pipelined Processor/SV_Code/testbench.sv(24)
+#    Time: 355 ps  Iteration: 1  Instance: /testbench
+# Break in Module testbench at D:/Comp Arch/Pipelined Processor/SV_Code/testbench.sv line 24
+restart
+run
+# Simulation succeeded
+# ** Note: $stop    : D:/Comp Arch/Pipelined Processor/SV_Code/testbench.sv(24)
+#    Time: 425 ps  Iteration: 1  Instance: /testbench
+# Break in Module testbench at D:/Comp Arch/Pipelined Processor/SV_Code/testbench.sv line 24
+restart
+run
+# Simulation succeeded
+# ** Note: $stop    : D:/Comp Arch/Pipelined Processor/SV_Code/testbench.sv(24)
+#    Time: 425 ps  Iteration: 1  Instance: /testbench
+# Break in Module testbench at D:/Comp Arch/Pipelined Processor/SV_Code/testbench.sv line 24
+restart
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run -all
+# Simulation succeeded
+# ** Note: $stop    : D:/Comp Arch/Pipelined Processor/SV_Code/testbench.sv(24)
+#    Time: 425 ps  Iteration: 1  Instance: /testbench
+# Break in Module testbench at D:/Comp Arch/Pipelined Processor/SV_Code/testbench.sv line 24
+restart
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+restart
+add wave -position end  sim:/testbench/dut/arm/PCF
+add wave -position end  sim:/testbench/dut/arm/dp/RA1D
+add wave -position end  sim:/testbench/dut/arm/dp/RA2D
+add wave -position end  sim:/testbench/dut/arm/dp/rd1D
+add wave -position end  sim:/testbench/dut/arm/dp/rd2D
+add wave -position end  sim:/testbench/dut/arm/c/ALUFlagsE
+add wave -position end  sim:/testbench/dut/arm/c/BranchTakenE
+add wave -position end  sim:/testbench/dut/arm/c/MemWriteM
+add wave -position end  sim:/testbench/dut/arm/c/MemtoRegW
+add wave -position end  sim:/testbench/dut/arm/c/RegWriteW
+add wave -position end  sim:/testbench/dut/arm/dp/StallF
+add wave -position end  sim:/testbench/dut/arm/dp/StallD
+add wave -position end  sim:/testbench/dut/arm/dp/FlushD
+add wave -position end  sim:/testbench/dut/arm/c/FlushE
+add wave -position end  sim:/testbench/dut/arm/c/ALUControlE
+add wave -position end  sim:/testbench/dut/arm/dp/ALUOutM
+add wave -position end  sim:/testbench/dut/arm/dp/ALUResultE
+add wave -position end  sim:/testbench/dut/arm/dp/ALUOutW
+add wave -position end  sim:/testbench/dut/arm/h/StallF
+add wave -position end  sim:/testbench/dut/arm/h/StallD
+add wave -position end  sim:/testbench/dut/arm/h/FlushD
+add wave -position end  sim:/testbench/dut/arm/h/FlushE
+add wave -position end  sim:/testbench/dut/arm/h/ForwardAE
+add wave -position end  sim:/testbench/dut/arm/h/ForwardBE
+run
+run
+restart
+run
+run
+run
+run
+run
+# Simulation succeeded
+# ** Note: $stop    : D:/Comp Arch/Pipelined Processor/SV_Code/testbench.sv(24)
+#    Time: 425 ps  Iteration: 1  Instance: /testbench
+# Break in Module testbench at D:/Comp Arch/Pipelined Processor/SV_Code/testbench.sv line 24
+add wave -position 3  sim:/testbench/dut/arm/dp/RA1E
+add wave -position 4  sim:/testbench/dut/arm/dp/RA2E
+add wave -position 7  sim:/testbench/dut/arm/dp/WA3E
+add wave -position 8  sim:/testbench/dut/arm/dp/WA3M
+add wave -position 9  sim:/testbench/dut/arm/dp/WA3W
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+run
+# Simulation succeeded
+# ** Note: $stop    : D:/Comp Arch/Pipelined Processor/SV_Code/testbench.sv(24)
+#    Time: 425 ps  Iteration: 1  Instance: /testbench
+# Break in Module testbench at D:/Comp Arch/Pipelined Processor/SV_Code/testbench.sv line 24
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+run
+# Simulation succeeded
+# ** Note: $stop    : D:/Comp Arch/Pipelined Processor/SV_Code/testbench.sv(24)
+#    Time: 425 ps  Iteration: 1  Instance: /testbench
+# Break in Module testbench at D:/Comp Arch/Pipelined Processor/SV_Code/testbench.sv line 24
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+run
+# Simulation succeeded
+# ** Note: $stop    : D:/Comp Arch/Pipelined Processor/SV_Code/testbench.sv(24)
+#    Time: 325 ps  Iteration: 1  Instance: /testbench
+# Break in Module testbench at D:/Comp Arch/Pipelined Processor/SV_Code/testbench.sv line 24
+quit -sim
+# End time: 17:19:27 on Feb 03,2022, Elapsed time: 15:18:31
+# Errors: 36, Warnings: 1
+# Compile of Controller.sv was successful.
+vsim -gui work.testbench
+# vsim -gui work.testbench 
+# Start time: 17:20:38 on Feb 03,2022
+# Loading sv_std.std
+# Loading work.testbench
+# Loading work.TOP
+# Loading work.ARM
+# Loading work.Controller
+# Loading work.floprc
+# Loading work.flopr
+# Loading work.CondCheck
+# Loading work.DataPath
+# Loading work.MUX2
+# Loading work.flopenr
+# Loading work.Adder
+# Loading work.flopenrc
+# Loading work.RegFile
+# Loading work.Extend
+# Loading work.MUX3
+# Loading work.ALU
+# Loading work.eqcmp
+# Loading work.Hazard
+# Loading work.imem
+# Loading work.dmem
+quit -sim
+# End time: 17:27:59 on Feb 03,2022, Elapsed time: 0:07:21
+# Errors: 0, Warnings: 2
+vsim -gui work.testbench
+# vsim -gui work.testbench 
+# Start time: 17:28:17 on Feb 03,2022
+# Loading sv_std.std
+# Loading work.testbench
+# Loading work.TOP
+# Loading work.ARM
+# Loading work.Controller
+# Loading work.floprc
+# Loading work.flopr
+# Loading work.CondCheck
+# Loading work.DataPath
+# Loading work.MUX2
+# Loading work.flopenr
+# Loading work.Adder
+# Loading work.flopenrc
+# Loading work.RegFile
+# Loading work.Extend
+# Loading work.MUX3
+# Loading work.ALU
+# Loading work.eqcmp
+# Loading work.Hazard
+# Loading work.imem
+# Loading work.dmem
+add wave -position insertpoint  \
+sim:/testbench/dut/arm/clk
+add wave -position end  sim:/testbench/dut/arm/reset
+add wave -position end  sim:/testbench/dut/arm/PCF
+add wave -position end  sim:/testbench/dut/arm/ALUOutM
+add wave -position end  sim:/testbench/dut/arm/WriteDataM
+add wave -position end  sim:/testbench/dut/arm/ReadDataM
+add wave -position end  sim:/testbench/dut/arm/ALUControlE
+add wave -position end  sim:/testbench/dut/arm/BranchTakenE
+add wave -position end  sim:/testbench/dut/arm/MemtoRegW
+add wave -position end  sim:/testbench/dut/arm/PCSrcW
+add wave -position end  sim:/testbench/dut/arm/ALUFlagsE
+add wave -position end  sim:/testbench/dut/arm/ForwardAE
+add wave -position end  sim:/testbench/dut/arm/ForwardBE
+add wave -position end  sim:/testbench/dut/arm/StallF
+add wave -position end  sim:/testbench/dut/arm/StallD
+add wave -position end  sim:/testbench/dut/arm/FlushD
+add wave -position end  sim:/testbench/dut/arm/FlushE
+run
+# Simulation succeeded
+# ** Note: $stop    : D:/Comp Arch/Pipelined Processor/SV_Code/testbench.sv(24)
+#    Time: 315 ps  Iteration: 1  Instance: /testbench
+# Break in Module testbench at D:/Comp Arch/Pipelined Processor/SV_Code/testbench.sv line 24
+restart
+add wave -position end  sim:/testbench/dut/arm/dp/RA1D
+add wave -position end  sim:/testbench/dut/arm/dp/RA2D
+add wave -position 0  sim:/testbench/dut/arm/dp/clk
+add wave -position end  sim:/testbench/dut/arm/dp/ALUOutM
+add wave -position end  sim:/testbench/dut/arm/dp/ALUOutW
+add wave -position end  sim:/testbench/dut/arm/dp/ALUResultE
+run
+# Simulation succeeded
+# ** Note: $stop    : D:/Comp Arch/Pipelined Processor/SV_Code/testbench.sv(24)
+#    Time: 315 ps  Iteration: 1  Instance: /testbench
+# Break in Module testbench at D:/Comp Arch/Pipelined Processor/SV_Code/testbench.sv line 24
+quit -sim
+# End time: 18:00:40 on Feb 03,2022, Elapsed time: 0:32:23
+# Errors: 30, Warnings: 1
