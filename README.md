@@ -1,4 +1,4 @@
-# Implementation-of-Pipelined-ARM-Processor-using-System-Verilog
+# Pipelined-ARM-Processor-using-System-Verilog
 The project aims to Implement the pipelined ARM processor using system Verilog with a Hazard Unit.
 
 My Project of the Computer Architecture and Assembly Language Course Offered in Fall 2021 @ Zewail City.
